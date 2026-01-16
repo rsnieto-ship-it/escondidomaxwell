@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quinta Escondida - A secluded 10-acre retreat in Maxwell, Texas. Escape to dark skies, pastoral views, and peaceful Hill Country charm.">
+    <meta name="keywords" content="Maxwell Texas vacation rental, Hill Country getaway, stargazing Texas, rural retreat, Quinta Escondida">
+    <title>Quinta Escondida | Secluded Retreat in Maxwell, Texas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#hero" class="nav__logo">Quinta Escondida</a>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+            </button>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#accommodations" class="nav__link">Stay</a></li>
+                <li class="nav__item"><a href="#amenities" class="nav__link">Amenities</a></li>
+                <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
+                <li class="nav__item"><a href="#pricing" class="nav__link">Rates</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="#booking" class="nav__cta">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <p class="hero__subtitle">Maxwell, Texas</p>
+            <h1 class="hero__title">Quinta Escondida</h1>
+            <p class="hero__tagline">A Secluded Retreat Under Wide Open Skies</p>
+            <a href="#booking" class="btn btn--primary hero__cta">Book Your Escape</a>
+            <a href="#about" class="hero__scroll">
+                <span>Discover</span>
+                <svg class="hero__scroll-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about__content">
+                <p class="section__subtitle">Welcome to</p>
+                <h2 class="section__title">Your Hidden Escape</h2>
+                <div class="about__text">
+                    <p>Nestled on 10 private acres in Maxwell, Texas, Quinta Escondida offers the perfect escape from the everyday. Wake up to pastoral views of grazing cattle, spend your days in peaceful solitude, and end each evening under a canopy of stars in our dark sky paradise.</p>
+                    <p>Whether you're seeking a quiet weekend getaway, a family gathering, or simply a place to disconnect and recharge, our secluded retreat welcomes you with warm hospitality and rustic Texas charm.</p>
+                </div>
+                <div class="about__features">
+                    <div class="about__feature">
+                        <span class="about__feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </span>
+                        <h3>10 Private Acres</h3>
+                        <p>Rolling pastures and open countryside</p>
+                    </div>
+                    <div class="about__feature">
+                        <span class="about__feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </span>
+                        <h3>Dark Sky Paradise</h3>
+                        <p>Minimal light pollution for stunning stargazing</p>
+                    </div>
+                    <div class="about__feature">
+                        <span class="about__feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </span>
+                        <h3>Pastoral Views</h3>
+                        <p>Wake up to cows grazing in the pasture</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodations Section -->
+    <section class="accommodations section section--alt" id="accommodations">
+        <div class="container">
+            <p class="section__subtitle">Your Stay</p>
+            <h2 class="section__title">The Retreat</h2>
+            <p class="section__description">Our comfortable open-concept space sleeps up to 10 guests, perfect for families, friends, or a peaceful solo escape.</p>
+
+            <div class="accommodations__grid">
+                <div class="accommodations__main">
+                    <div class="accommodations__image">
+                        <img src="images/interior-main.jpeg" alt="Open concept interior with queen beds, dining table, and comfortable seating">
+                    </div>
+                </div>
+                <div class="accommodations__details">
+                    <h3>Sleeping Arrangements</h3>
+                    <ul class="amenities-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4v16M22 4v16M6 20v-4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4M6 8h12"/></svg>
+                            3 Queen Beds
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4v16M22 4v16M6 20v-4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4M6 8h12"/></svg>
+                            2 Pull-out Sofas (Full)
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            Sleeps up to 10 guests
+                        </li>
+                    </ul>
+                    <p class="accommodations__note">Open floor plan design - no private bedrooms</p>
+
+                    <h3>Bathrooms</h3>
+                    <ul class="amenities-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6L6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" y1="5" x2="8" y2="7"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+                            2 Full Bathrooms
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="amenities section" id="amenities">
+        <div class="container">
+            <p class="section__subtitle">Everything You Need</p>
+            <h2 class="section__title">Amenities</h2>
+
+            <div class="amenities__grid">
+                <div class="amenity-card">
+                    <div class="amenity-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                    </div>
+                    <h3 class="amenity-card__title">Indoor Comforts</h3>
+                    <ul class="amenity-card__list">
+                        <li>Air Conditioning & Heat</li>
+                        <li>Free High-Speed WiFi</li>
+                        <li>Smart TV</li>
+                        <li>Refrigerator</li>
+                    </ul>
+                </div>
+
+                <div class="amenity-card">
+                    <div class="amenity-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                            <line x1="6" y1="1" x2="6" y2="4"/>
+                            <line x1="10" y1="1" x2="10" y2="4"/>
+                            <line x1="14" y1="1" x2="14" y2="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="amenity-card__title">Kitchen</h3>
+                    <ul class="amenity-card__list">
+                        <li>Microwave</li>
+                        <li>Coffee Pot</li>
+                        <li>Electric Burner</li>
+                        <li>Basic Cookware</li>
+                    </ul>
+                </div>
+
+                <div class="amenity-card">
+                    <div class="amenity-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="5"/>
+                            <line x1="12" y1="1" x2="12" y2="3"/>
+                            <line x1="12" y1="21" x2="12" y2="23"/>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                            <line x1="1" y1="12" x2="3" y2="12"/>
+                            <line x1="21" y1="12" x2="23" y2="12"/>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                    </div>
+                    <h3 class="amenity-card__title">Outdoor Pavilion</h3>
+                    <ul class="amenity-card__list">
+                        <li>Covered Outdoor Kitchen</li>
+                        <li>Propane Grill & 2 Burners</li>
+                        <li>Sink with Running Water</li>
+                        <li>String Lights</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Rentables -->
+            <div class="rentables">
+                <h3 class="rentables__title">Available Rentals</h3>
+                <p class="rentables__subtitle">Hosting a gathering? We've got you covered.</p>
+                <div class="rentables__grid">
+                    <div class="rentable-item">
+                        <span class="rentable-item__name">Folding Chairs</span>
+                        <span class="rentable-item__price">$1.50 each</span>
+                    </div>
+                    <div class="rentable-item">
+                        <span class="rentable-item__name">Tables</span>
+                        <span class="rentable-item__price">$3 each</span>
+                    </div>
+                    <div class="rentable-item">
+                        <span class="rentable-item__name">55" TV on Wheels</span>
+                        <span class="rentable-item__price">$50/day</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax Image Divider -->
+    <section class="parallax-section">
+        <div class="parallax-section__overlay"></div>
+        <div class="parallax-section__content">
+            <p class="parallax-section__text">Escape the noise. Embrace the stars.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section section--alt" id="gallery">
+        <div class="container">
+            <p class="section__subtitle">Explore</p>
+            <h2 class="section__title">The Property</h2>
+            <p class="section__description">10 acres of peaceful Texas countryside awaits.</p>
+
+            <div class="gallery__grid">
+                <div class="gallery__item gallery__item--large">
+                    <img src="images/pavilion-evening.jpeg" alt="Covered outdoor pavilion with string lights, TV, and outdoor kitchen">
+                </div>
+                <div class="gallery__item">
+                    <img src="images/living-room.jpeg" alt="Cozy living room with comfortable red sofas and TV">
+                </div>
+                <div class="gallery__item">
+                    <img src="images/outdoor-grill.jpeg" alt="Professional outdoor grill and kitchen setup">
+                </div>
+                <div class="gallery__item">
+                    <img src="images/breezeway.jpeg" alt="Covered breezeway with string lights connecting buildings">
+                </div>
+                <div class="gallery__item">
+                    <img src="images/firepit-area.jpeg" alt="Guest relaxing by the fire pit under the oak trees">
+                </div>
+                <div class="gallery__item">
+                    <img src="images/pavilion-view.jpeg" alt="View from pavilion overlooking rolling pastures and oak trees">
+                </div>
+            </div>
+
+            <p class="gallery__note">Follow us on social media to see more of Quinta Escondida</p>
+            <div class="gallery__social">
+                <a href="https://www.instagram.com/QuintaEscondidaMaxwell" target="_blank" class="social-link" aria-label="Follow us on Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                    </svg>
+                    <span>@QuintaEscondidaMaxwell</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <p class="section__subtitle text-center">Guest Experiences</p>
+            <h2 class="section__title text-center">What Our Guests Say</h2>
+
+            <div class="testimonials__grid">
+                <blockquote class="testimonial">
+                    <div class="testimonial__stars">
+                        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p class="testimonial__text">"The night sky here is absolutely breathtaking. We spent hours stargazing and making memories our family will cherish forever. The perfect escape from city life."</p>
+                    <footer class="testimonial__author">
+                        <strong>Sarah M.</strong>
+                        <span>Family Reunion</span>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="testimonial">
+                    <div class="testimonial__stars">
+                        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p class="testimonial__text">"Peaceful, private, and exactly what we needed. The outdoor pavilion was perfect for our gathering, and waking up to the cows grazing was a joy. Highly recommend!"</p>
+                    <footer class="testimonial__author">
+                        <strong>Michael T.</strong>
+                        <span>Weekend Getaway</span>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="testimonial">
+                    <div class="testimonial__stars">
+                        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p class="testimonial__text">"A hidden gem in the Texas Hill Country. The hosts were responsive, the property was clean and comfortable, and the views were stunning. We'll definitely be back."</p>
+                    <footer class="testimonial__author">
+                        <strong>Jennifer & David</strong>
+                        <span>Anniversary Trip</span>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing section section--alt" id="pricing">
+        <div class="container">
+            <p class="section__subtitle">Rates</p>
+            <h2 class="section__title">Nightly Pricing</h2>
+            <p class="section__description">Simple, transparent pricing. Stay longer and save.</p>
+
+            <div class="pricing__cards">
+                <div class="pricing__card">
+                    <h3 class="pricing__card-title">Single Night</h3>
+                    <p class="pricing__card-duration">1 night stay</p>
+                    <p class="pricing__card-price"><span>$325</span> per night</p>
+                    <ul class="pricing__card-features">
+                        <li>Full property access</li>
+                        <li>Sleeps up to 10 guests</li>
+                        <li>Indoor & outdoor spaces</li>
+                        <li>Free WiFi</li>
+                    </ul>
+                </div>
+
+                <div class="pricing__card pricing__card--featured">
+                    <span class="pricing__card-badge">Best Value</span>
+                    <h3 class="pricing__card-title">Extended Stay</h3>
+                    <p class="pricing__card-duration">2-4 nights</p>
+                    <p class="pricing__card-price"><span>$225</span> per night</p>
+                    <ul class="pricing__card-features">
+                        <li>Everything included</li>
+                        <li>Save $100/night</li>
+                        <li>More time to explore</li>
+                        <li>Perfect for weekends</li>
+                    </ul>
+                </div>
+
+                <div class="pricing__card">
+                    <h3 class="pricing__card-title">Weekly Rate</h3>
+                    <p class="pricing__card-duration">5+ nights</p>
+                    <p class="pricing__card-price"><span>$995</span> total</p>
+                    <ul class="pricing__card-features">
+                        <li>5 nights included</li>
+                        <li>Best savings</li>
+                        <li>Extended relaxation</li>
+                        <li>Feel at home</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pricing__note-box">
+                <p><strong>Cleaning Fee:</strong> $125 (applies to all reservations)</p>
+            </div>
+
+            <a href="#booking" class="btn btn--primary">Check Availability</a>
+        </div>
+    </section>
+
+    <!-- Booking Request Section -->
+    <section class="booking section section--alt" id="booking">
+        <div class="container">
+            <p class="section__subtitle">Reserve Your Stay</p>
+            <h2 class="section__title">Book Quinta Escondida</h2>
+            <p class="section__description">Ready to escape? Send us your dates and we'll confirm availability.</p>
+
+            <form class="quote__form" id="quote-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form__row">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Full Name *</label>
+                        <input type="text" id="name" name="name" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email Address *</label>
+                        <input type="email" id="email" name="email" class="form__input" required>
+                    </div>
+                </div>
+
+                <div class="form__row">
+                    <div class="form__group">
+                        <label for="phone" class="form__label">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form__input">
+                    </div>
+                    <div class="form__group">
+                        <label for="guests" class="form__label">Number of Guests</label>
+                        <select id="guests" name="guests" class="form__select">
+                            <option value="">Select guests</option>
+                            <option value="1-2">1-2 guests</option>
+                            <option value="3-4">3-4 guests</option>
+                            <option value="5-6">5-6 guests</option>
+                            <option value="7-8">7-8 guests</option>
+                            <option value="9-10">9-10 guests</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form__row">
+                    <div class="form__group">
+                        <label for="checkin" class="form__label">Check-in Date *</label>
+                        <input type="date" id="checkin" name="checkin" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="checkout" class="form__label">Check-out Date *</label>
+                        <input type="date" id="checkout" name="checkout" class="form__input" required>
+                    </div>
+                </div>
+
+                <div class="form__group form__group--full">
+                    <label for="message" class="form__label">Special Requests or Questions</label>
+                    <textarea id="message" name="message" class="form__textarea" rows="4" placeholder="Let us know if you need tables, chairs, or have any special requests..."></textarea>
+                </div>
+
+                <div class="form__group form__group--full">
+                    <button type="submit" class="btn btn--primary btn--full">Request Booking</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <p class="section__subtitle">Questions?</p>
+                    <h2 class="section__title">Get in Touch</h2>
+                    <p class="contact__text">We'd love to hear from you. Reach out with any questions about Quinta Escondida or to learn more about planning your stay.</p>
+
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Maxwell, Texas</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:+15551234567">(555) 123-4567</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:escondidomaxwell@gmail.com">escondidomaxwell@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__map">
+                    <img src="images/pasture-view.jpeg" alt="Open pastures and oak trees at Quinta Escondida">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#hero" class="footer__logo">Quinta Escondida</a>
+                    <p class="footer__tagline">A Secluded Retreat Under Wide Open Skies</p>
+                </div>
+
+                <div class="footer__links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#accommodations">Stay</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#pricing">Rates</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <h4>Follow Us</h4>
+                    <div class="footer__social-links">
+                        <a href="https://www.instagram.com/QuintaEscondidaMaxwell" target="_blank" class="footer__social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2025 Quinta Escondida. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
